@@ -10,4 +10,4 @@ jdk 1.8.0_171
 
 1.如果使用excel作为测试数据的来源，请直接运行testng.xml文件，选中test.xml文件->右键单击->run
 2.如果使用数据库作为测试数据的原来，请直接运营db_testng.xml文件，db_testng.xml文件->右键单击->run（需要配置数据库，下文会详解）
-http://img.blog.csdn.net/20151028220407942
+https://github.com/fengdoudexiaoniao/apitest/blob/master/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20180711173228.png
