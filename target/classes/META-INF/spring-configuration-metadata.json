@@ -1,0 +1,32 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "ping.wg.apittest.config.ApiConfig",
+      "name": "wg.ping",
+      "type": "ping.wg.apittest.config.ApiConfig"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "ping.wg.apittest.config.ApiConfig",
+      "name": "wg.ping.headers",
+      "type": "java.util.Map<java.lang.String,java.lang.String>"
+    },
+    {
+      "sourceType": "ping.wg.apittest.config.ApiConfig",
+      "name": "wg.ping.params",
+      "type": "java.util.Map<java.lang.String,java.lang.String>"
+    },
+    {
+      "sourceType": "ping.wg.apittest.config.ApiConfig",
+      "name": "wg.ping.project-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "ping.wg.apittest.config.ApiConfig",
+      "name": "wg.ping.root-url",
+      "type": "java.lang.String"
+    }
+  ]
+}

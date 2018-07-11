@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>接口测试api</title>
+</head>
+<body>
+      <h1 th:text="${hello}">Hello, Spring Boot!</h1>
+      <table>
+            <tr>
+                <td>序号</td>
+                <td>描述</td>
+                <td>url</td>
+                <td>请求参数</td>
+                <td>是否测试</td>
+                <td>验证参数</td>
+                <td>保存参数</td>
+            </tr>
+          <tr th:each="api:${apiList}">
+              <td><input th:value="${api.apiId}"></td>
+              <td><input th:value="${api.apidesc}"></td>
+              <td><input th:value="${api.apiurl}"></td>
+              <td><input th:value="${api.apiparam}"></td>
+              <td><input th:value="${api.apirun}"></td>
+              <td><input th:value="${api.apiverify}"></td>
+              <td><input th:value="${api.apisave}"></td>
+          </tr>
+
+      </table>
+
+        <select>
+            <option th:each="api:${apiList}" th:value="${api.apiId}"th:text="${api.apidesc}">
+                请选择
+            </option>
+        </select>
+
+
+
+</body>
+</html>
