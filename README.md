@@ -15,3 +15,5 @@ jdk 1.8.0_171
 
 
 三.项目讲解
+1.api-data.xml中,run:输入y/n决定该条测试用例是否执行。desc:测试用例的描述。url:接口路径。param:参数（json格式）
+verify:需要验证的返回参数（比如：{"screen_name":"$.screen_name"}，“$.”主要是用了）
