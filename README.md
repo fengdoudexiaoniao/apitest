@@ -20,4 +20,4 @@ jdk 1.8.0_171
 1.api-data.xml中,run:输入y/n决定该条测试用例是否执行。desc:测试用例的描述。url:接口路径。param:参数（json格式）
 verify:需要验证的返回参数（比如：{"screen_name":"$.screen_name"}，“$.screen_name”是从之前接口返回数据中取的值也可以是{"screen_name":"张三"}）
 save:将接口中返回的数据保存下来，提供后续接口使用，多个参数使用“;”隔开。
-
+2.exlbeans->ApiDataBean：与api-data.xml文件中字段对应，为了后续将excel文件中的测试用例转化成对象。
