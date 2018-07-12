@@ -22,3 +22,5 @@ verify:需要验证的返回参数（比如：{"screen_name":"$.screen_name"}，
 save:将接口中返回的数据保存下来，提供后续接口使用，多个参数使用“;”隔开。
 
 2.exlbeans->ApiDataBean：与api-data.xml文件中字段对应，为了后续将excel文件中的测试用例转化成对象。
+
+3.
